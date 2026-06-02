@@ -1,0 +1,12 @@
+# Ejercicio 1 - Aprendizaje Supervisado
+# Entorno: python -m venv venv ; pip install -r requirements.txt
+# Versiones fijadas para reproducibilidad exacta de métricas y figuras.
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.17.1
+matplotlib==3.10.9
+seaborn==0.13.2
+joblib==1.5.3
+threadpoolctl==3.6.0
+jupyter

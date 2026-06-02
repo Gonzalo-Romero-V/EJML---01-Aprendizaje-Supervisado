@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Entorno virtual (no se versiona; se reconstruye con requirements.txt)
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Datasets y modelos pesados (no versionar binarios; .gitkeep preserva la carpeta)
+/data/*
+!/data/.gitkeep
+
+# Figuras generadas por el pipeline (se regeneran con: python main.py)
+/docs/figuras/*
+!/docs/figuras/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# Documentos Word: no se versionan (ni informe generado ni plantilla)
+*.docx
+~WRL*.tmp
+
+# Editores
+.vscode/
+.idea/
